@@ -7,7 +7,8 @@ function Table(props) {
             <thead>
                 <tr>
                     <th scope="col" id="pictureHeader">Picture</th>
-                    <th scope="col" id="nameHeader">Name</th>
+                    <th scope="col" id="nameHeader" onClick={props.handleSubmitFirst}>First Name</th>
+                    <th scope="col" id="nameHeader" onClick={props.handleSubmitLast}>Last Name</th>
                     <th scope="col" id="emailHeader">Email</th>
                     <th scope="col" id="phoneHeader">Phone Number</th>
                 </tr>
@@ -17,14 +18,15 @@ function Table(props) {
                     return (
                         <tr>
                             <td id="picture"><img alt="employee images" src={person.picture.medium} /></td>
-                            <td id="name">{person.name.first + " " + person.name.last}</td>
+                            <td id="name">{person.name.first}</td>
+                            <td id="name">{person.name.last}</td>
                             <td id="email">{person.email}</td>
                             <td id="phone">{person.phone}</td>
                         </tr>
                     )
                 }) :
                     <tr>
-                        <th scope="row"></th>
+                        <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
