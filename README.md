@@ -1,55 +1,19 @@
-# Unit 19 React Homework: Employee Directory
+# React: Employee Directory
+
+![](directoryScreenshot.jpg)
 
 ## Overview
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+I created an employee directory with React. I broke up my application's UI into components that could respond to user events in order to search throught the directory
 
-## User Story
+## Installation
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+This is a React application so if you pull this repo you will need to follow all the same steps for other React applications.
 
-## Business Context
+## Usage 
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+Simply type into the search bar to look for the employee you desire. The employees are randomly generated at the moment but you can replace the random employees with your own employee database and it will work.
 
-## Acceptance Criteria
+## Credits
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
-
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
-
+I would like to give a lot of credit to my tutor Phil Loy he helped me so much understand the concepts needed for this assignment. Also my TA Leigh Tracey.
