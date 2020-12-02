@@ -2,7 +2,7 @@
 
 ![](directoryScreenshot.jpg)
 
-## Overview
+## Description
 
 I created an employee directory with React. I broke up my application's UI into components that could respond to user events in order to search throught the directory
 
